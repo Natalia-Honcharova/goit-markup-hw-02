@@ -55,6 +55,13 @@ color: #2e2f42;
 
 .page-footer {
     background-color: #2e2f42;
+    padding: 100px 0;
+}
+.footer-text {
+    color: #f4f4fd;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .hero {
@@ -69,7 +76,7 @@ padding: 188px 0;
         text-align: center;
         color: #fff;
 }
-.hero.button {
+.hero-button {
     font-family: inherit;
         font-weight: 500;
         font-size: 16px;
@@ -86,4 +93,45 @@ padding: 188px 0;
 .hero-button:hover,
 .hero-button:focus {
     background-color: #404bbf
+}
+.team-title {
+    text-align: center;
+}
+.portfolio-title {
+    text-align: center;
+}
+
+.ul,ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.team {
+    background-color: #f4f4fd;
+}
+.team-item {
+    margin-bottom: 24px;
+    border-radius: 0 0 4px 4px;
+        padding: 0px 0px 32px;
+        background-color: #fff;
+        text-align: center;
+}
+.team-name {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+.team-position {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #434455;
+}
+.team-photo {
+    display: block;
 }
